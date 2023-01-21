@@ -1,1 +1,1 @@
-Build arguments and env variables were used to pass secrets to the Dockerfile, the env file was uploaded to a private s3 bucket and the ecs service was assigned a role to getobject and access the env file upon running tasks.
+Build arguments and env variables were used to pass secrets to the Dockerfile, the env file was uploaded to a private s3 bucket and the ecs service was assigned a role to get-object and access the env file upon running tasks.
